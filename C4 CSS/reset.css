@@ -1,0 +1,68 @@
+/* Reset CSS */
+
+/* Box sizing border-box reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove default margin and padding for body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove default margin for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/* Remove default margin for paragraphs */
+p {
+    margin: 0;
+}
+
+/* Remove default border and padding for images */
+img {
+    border: 0;
+    padding: 0;
+}
+
+/* Remove default border for anchor tags */
+a {
+    text-decoration: none;
+    border: none;
+}
+
+/* Remove default styles for form elements */
+input,
+textarea,
+button,
+select {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+/* Normalize font sizes */
+html {
+    font-size: 16px;
+}
+
+/* Additional resets and styles can be added as needed */
